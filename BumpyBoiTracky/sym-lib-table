@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "BumpyBoiTracky")(type "KiCad")(uri "${KIPRJMOD}/lib/BumpyBoiTracky.kicad_sym")(options "")(descr ""))
+)

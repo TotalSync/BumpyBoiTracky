@@ -1,0 +1,54 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 928b0f8b-8b49-49d2-8d50-a117ac303dd1)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 86.36 64.77) (size 26.67 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 21c5c692-5c1d-41df-8194-683a793cc4b6)
+    (property "Sheet name" "Controller" (id 0) (at 86.36 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "controller.kicad_sch" (id 1) (at 86.36 90.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/21c5c692-5c1d-41df-8194-683a793cc4b6" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/21c5c692-5c1d-41df-8194-683a793cc4b6/2a35a0c9-9b2c-4a04-975b-02dcf81f4e34"
+      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/21c5c692-5c1d-41df-8194-683a793cc4b6/2b54e88e-c603-4949-a537-5d0494072e51"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/21c5c692-5c1d-41df-8194-683a793cc4b6/741ed535-4306-4cb5-83c4-ee7d7229d334"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/21c5c692-5c1d-41df-8194-683a793cc4b6/ba70b51e-f34b-4a97-bd4b-6da5b8a8fdf8"
+      (reference "#PWR?") (unit 1) (value "VDDA") (footprint "")
+    )
+    (path "/21c5c692-5c1d-41df-8194-683a793cc4b6/18ec86ae-e817-49a7-96d7-a3ba559df5ec"
+      (reference "C?") (unit 1) (value "C_Small") (footprint "")
+    )
+    (path "/21c5c692-5c1d-41df-8194-683a793cc4b6/263dc224-40b7-4c68-80fe-2143ad14f26e"
+      (reference "C?") (unit 1) (value "C_Small") (footprint "")
+    )
+    (path "/21c5c692-5c1d-41df-8194-683a793cc4b6/a6d72b56-6237-4d55-95ea-a7ab302b53c3"
+      (reference "U?") (unit 1) (value "ATmega328PB-A") (footprint "Package_QFP:TQFP-32_7x7mm_P0.8mm")
+    )
+    (path "/21c5c692-5c1d-41df-8194-683a793cc4b6/394d33e7-88d9-40e3-8426-2a7ca1488604"
+      (reference "Y?") (unit 1) (value "Crystal") (footprint "")
+    )
+  )
+)
