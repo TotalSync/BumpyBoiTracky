@@ -324,6 +324,14 @@
     [
       "21c5c692-5c1d-41df-8194-683a793cc4b6",
       "Controller"
+    ],
+    [
+      "24f85fee-d9fb-4642-aa62-be67a2218d81",
+      "Gyro"
+    ],
+    [
+      "6304499b-1b1b-43e9-a41c-07b09407b60f",
+      "Voltage Converters"
     ]
   ],
   "text_variables": {}
