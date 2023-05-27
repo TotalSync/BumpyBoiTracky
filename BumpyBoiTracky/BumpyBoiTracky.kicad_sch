@@ -1009,7 +1009,7 @@
     (uuid a50771fd-69e1-4805-ba66-c397618a482a)
     (property "Reference" "J1" (id 0) (at 43.18 107.95 0))
     (property "Value" "USB_C_Receptacle" (id 1) (at 43.18 110.49 0))
-    (property "Footprint" "" (id 2) (at 46.99 140.97 0)
+    (property "Footprint" "BumpyBoiTracky:Amphenol_USB-C_10164359-00011LF" (id 2) (at 46.99 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 46.99 140.97 0)
@@ -1501,7 +1501,7 @@
       (reference "D1") (unit 1) (value "PMEG1020EJ,115") (footprint "Diode_SMD:D_SOD-323F")
     )
     (path "/a50771fd-69e1-4805-ba66-c397618a482a"
-      (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "")
+      (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "BumpyBoiTracky:Amphenol_USB-C_10164359-00011LF")
     )
     (path "/dbbc42e1-14d2-46e9-8990-1711bd3e37a5"
       (reference "J2") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
